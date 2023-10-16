@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 30px 0 0;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header .line {
+  border-bottom: 1px solid #ccc;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+section label {
+  display: block;
+}
+
+section input[type="text"] {
+  width: 100px;
+  height: 30px;
+  padding: 12px;
+}
+
+section button,
+section input[type="submit"] {
+  height: 30px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+}
+
+section button {
+  background-color: #3131ec;
+}
+
+section input[type="submit"] {
+  background-color: #ee2e2e;
+}
+
+section button:hover {
+  background-color: #2020b9;
+}
+
+section input[type="submit"]:hover {
+  background-color: #ce2121;
+}
+
+section .legenda ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+/* Situação assentos */
+.disponivel {
+  display: inline-block;
+  width: 25px;
+  height: 12px;
+  background-color: green;
+}
+
+.reservado {
+  display: inline-block;
+  width: 25px;
+  height: 12px;
+  background-color: yellow;
+}
+
+.ocupado {
+  display: inline-block;
+  width: 25px;
+  height: 12px;
+  background-color: red;
+}
+
+/* Estilo dos assentos */
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #ccc;
+}
+
+main {
+  /* border: 1px solid red; */
+  padding: 20px;
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+main .bloco {
+  display: inline-block;
+  width: 50px;
+}
+
+main .lugar {
+  display: inline-block;
+  width: 25px;
+  height: 12px;
+  background-color: green;
+}
+
+main .bloco {
+  text-align: center;
+  margin-left: 17px;
+  margin-bottom: 5px;
+}
